@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #feffb3, #aeb4ff);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.logoImg{
+  height: 20px;
+  width: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.themed-container{
+  min-height: 584px;
+}
+
+.spinner-grow .sr-only{
+  display: none;
+}
+
+.WeatherReport.card{
+  border: none;
+  background: rgba(255, 255, 255, 0)
+}
+
+.WeatherForecastRecords .card{
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0px 10px;
+  box-shadow: 5px 5px 10px #555;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.WeatherForecastRecords .card:hover {
+  box-shadow: 25px 25px 10px #555;
+}
