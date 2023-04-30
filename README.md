@@ -1,7 +1,7 @@
 # Weather Forecast App
 A single page Weather Forecast application on React JS
 
-![Screenshot](https://github.com/aniketmazumdar/react-weather-forecast-app/blob/main/src/assets/img/screenshot.png?raw=true)
+![Screenshot](/src/assets/img/screenshot.png?raw=true)
 
 ## Description
 This app can generate the weather forecast report of today with the next five days for any location. Visior's current location is tracked based on the geolocation. By searching any city visitor can see the weather report of the location. In weather report information such points are included like: **Average Temperature, Highest Temperature, Lowest Temperature, Pressure, Precipitation, Wind Speed, Cloud Cover, the time of Sunset and Sunrise** etc.
